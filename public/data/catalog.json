@@ -1,5 +1,53 @@
 [
   {
+    "id": "loop_117",
+    "filename": "ST_Loop_168__1789264883687.ogg",
+    "url": "/loops/ST_Loop_168__1789264883687.ogg",
+    "title": "Acoustic Guitar Loop (168 BPM - C Maj)",
+    "category": "Acoustic Guitar",
+    "bpm": 168,
+    "key": "C Maj",
+    "fileSize": 372218,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:01:23.711Z"
+  },
+  {
+    "id": "loop_116",
+    "filename": "ST_Loop_168__1789264883632.ogg",
+    "url": "/loops/ST_Loop_168__1789264883632.ogg",
+    "title": "Acoustic Guitar Loop (168 BPM - C Maj)",
+    "category": "Acoustic Guitar",
+    "bpm": 168,
+    "key": "C Maj",
+    "fileSize": 545845,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:01:23.654Z"
+  },
+  {
+    "id": "loop_115",
+    "filename": "ST_Loop_168__1789264883078.ogg",
+    "url": "/loops/ST_Loop_168__1789264883078.ogg",
+    "title": "Keys & Synths Loop (168 BPM - C Maj)",
+    "category": "Keys & Synths",
+    "bpm": 168,
+    "key": "C Maj",
+    "fileSize": 547673,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:01:23.103Z"
+  },
+  {
+    "id": "loop_114",
+    "filename": "ST_Loop_168_Bm_1789264878894.ogg",
+    "url": "/loops/ST_Loop_168_Bm_1789264878894.ogg",
+    "title": "Bass & 808 Loop (168 BPM - Bm)",
+    "category": "Bass & 808",
+    "bpm": 168,
+    "key": "Bm",
+    "fileSize": 278614,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:01:18.912Z"
+  },
+  {
     "id": "loop_113",
     "filename": "ST_Loop_168_Bm_1789264872805.ogg",
     "url": "/loops/ST_Loop_168_Bm_1789264872805.ogg",
