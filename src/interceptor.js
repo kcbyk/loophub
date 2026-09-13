@@ -8,9 +8,13 @@ const db = require('./db');
 class InterceptorEmitter extends EventEmitter {}
 const interceptorEvents = new InterceptorEmitter();
 
-// Ensure download directory exists
-if (!fs.existsSync(config.downloadDir)) {
-  fs.mkdirSync(config.downloadDir, { recursive: true });
+// Ensure download directory exists (with fallback for read-only environments)
+try {
+  if (!fs.existsSync(config.downloadDir)) {
+    fs.mkdirSync(config.downloadDir, { recursive: true });
+  }
+} catch (e) {
+  // Gracefully handle read-only environments like Vercel
 }
 
 /**

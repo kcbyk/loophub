@@ -2,7 +2,7 @@
   "name": "soundtrap-loop-downloader",
   "version": "1.0.0",
   "description": "Automated Audio Downloader & Loop Harvester for Soundtrap with Network Interception and Express Dashboard",
-  "main": "src/index.js",
+  "main": "api/index.js",
   "scripts": {
     "build": "node -e \"console.log('LoopHub static build complete.')\"",
     "start": "node src/index.js",
