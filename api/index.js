@@ -6,48 +6,50 @@ const app = express();
 
 const publicDir = path.join(__dirname, '../public');
 
-// Serve static assets from public
+// Embed catalog directly so Vercel NFT bundler bundles it
+let catalog = [];
+try {
+  catalog = require('../public/data/catalog.json');
+} catch {
+  try {
+    const p = path.join(publicDir, 'data/catalog.json');
+    if (fs.existsSync(p)) {
+      catalog = JSON.parse(fs.readFileSync(p, 'utf8'));
+    }
+  } catch {}
+}
+
+// Serve static assets
 app.use(express.static(publicDir));
 app.use('/loops', express.static(path.join(publicDir, 'loops')));
 app.use('/data', express.static(path.join(publicDir, 'data')));
 
-// API: Loops Catalog
+// Dedicated endpoints returning JSON catalog
+app.get('/data/catalog.json', (req, res) => {
+  res.setHeader('Content-Type', 'application/json');
+  return res.json(catalog);
+});
+
 app.get('/api/loops', (req, res) => {
-  try {
-    const catalogPath = path.join(publicDir, 'data/catalog.json');
-    if (fs.existsSync(catalogPath)) {
-      const catalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
-      return res.json({ success: true, loops: catalog });
-    }
-    return res.json({ success: true, loops: [] });
-  } catch (err) {
-    return res.status(500).json({ success: false, error: err.message });
-  }
+  res.setHeader('Content-Type', 'application/json');
+  return res.json({ success: true, loops: catalog });
 });
 
 // API: Stats
 app.get('/api/stats', (req, res) => {
-  try {
-    const catalogPath = path.join(publicDir, 'data/catalog.json');
-    if (fs.existsSync(catalogPath)) {
-      const catalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
-      const totalBytes = catalog.reduce((acc, c) => acc + (c.fileSize || 0), 0);
-      return res.json({
-        success: true,
-        stats: {
-          totalLoops: catalog.length,
-          totalBytes,
-          totalMB: (totalBytes / (1024 * 1024)).toFixed(2)
-        }
-      });
+  res.setHeader('Content-Type', 'application/json');
+  const totalBytes = catalog.reduce((acc, c) => acc + (c.fileSize || 0), 0);
+  return res.json({
+    success: true,
+    stats: {
+      totalLoops: catalog.length,
+      totalBytes,
+      totalMB: (totalBytes / (1024 * 1024)).toFixed(2)
     }
-    return res.json({ success: true, stats: { totalLoops: 0, totalBytes: 0, totalMB: '0.00' } });
-  } catch (err) {
-    return res.status(500).json({ success: false, error: err.message });
-  }
+  });
 });
 
-// Serve index.html for all other routes
+// Serve index.html for root and navigation
 app.get('*', (req, res) => {
   res.sendFile(path.join(publicDir, 'index.html'));
 });
