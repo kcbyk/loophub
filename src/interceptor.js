@@ -85,6 +85,17 @@ function attachAudioInterceptor(page) {
       const headers = response.headers();
       const contentType = (headers['content-type'] || '').toLowerCase();
 
+      // Explicitly ignore non-audio MIME types (images, JSON, HTML, scripts)
+      if (
+        contentType.startsWith('image/') ||
+        contentType.startsWith('text/') ||
+        contentType.includes('json') ||
+        contentType.includes('javascript') ||
+        contentType.includes('font')
+      ) {
+        return;
+      }
+
       // Check if response matches audio criteria
       const isAudioMime = config.audioMimeTypes.some(mime => contentType.includes(mime));
       const isAudioUrl = config.audioUrlPatterns.some(pat => url.toLowerCase().includes(pat));

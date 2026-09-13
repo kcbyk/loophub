@@ -126,7 +126,7 @@ function processPushQueue() {
 
   console.log(`\n🚀 [Auto-Git] Pushing newly harvested loop to GitHub: ${safeFilename}...`);
 
-  const cmd = `git add "public/loops/${safeFilename}" "public/data/catalog.json" && git commit -m "auto: add loop ${safeFilename}" && git push origin main`;
+  const cmd = `git add -f "public/loops/${safeFilename}" "public/data/catalog.json" && git commit -m "auto: add loop ${safeFilename}" && git push origin main`;
 
   exec(cmd, { cwd: path.resolve(__dirname, '..') }, (error, stdout, stderr) => {
     isPushing = false;

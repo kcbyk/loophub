@@ -29,9 +29,9 @@ module.exports = {
     '.mp3',
     '.wav',
     '.ogg',
-    'soundtrap',
-    'audio',
-    'loops',
-    'samples'
+    '.m4a',
+    '.aac',
+    '.flac',
+    '/user-assets/loop/'
   ]
 };
