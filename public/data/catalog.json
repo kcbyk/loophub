@@ -1,5 +1,53 @@
 [
   {
+    "id": "loop_125",
+    "filename": "ST_Loop_168_Bm_1789264897325.ogg",
+    "url": "/loops/ST_Loop_168_Bm_1789264897325.ogg",
+    "title": "Bass & 808 Loop (168 BPM - Bm)",
+    "category": "Bass & 808",
+    "bpm": 168,
+    "key": "Bm",
+    "fileSize": 361704,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:01:37.342Z"
+  },
+  {
+    "id": "loop_124",
+    "filename": "ST_Loop_168_Bm_1789264896247.ogg",
+    "url": "/loops/ST_Loop_168_Bm_1789264896247.ogg",
+    "title": "Electric Guitar Loop (168 BPM - Bm)",
+    "category": "Electric Guitar",
+    "bpm": 168,
+    "key": "Bm",
+    "fileSize": 366684,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:01:36.270Z"
+  },
+  {
+    "id": "loop_123",
+    "filename": "ST_Loop_168_Bm_1789264896198.ogg",
+    "url": "/loops/ST_Loop_168_Bm_1789264896198.ogg",
+    "title": "Electric Guitar Loop (168 BPM - Bm)",
+    "category": "Electric Guitar",
+    "bpm": 168,
+    "key": "Bm",
+    "fileSize": 370780,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:01:36.229Z"
+  },
+  {
+    "id": "loop_122",
+    "filename": "ST_Loop_168_Bm_1789264892078.ogg",
+    "url": "/loops/ST_Loop_168_Bm_1789264892078.ogg",
+    "title": "Bass & 808 Loop (168 BPM - Bm)",
+    "category": "Bass & 808",
+    "bpm": 168,
+    "key": "Bm",
+    "fileSize": 374976,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:01:32.098Z"
+  },
+  {
     "id": "loop_121",
     "filename": "ST_Loop_168_Bm_1789264889667.ogg",
     "url": "/loops/ST_Loop_168_Bm_1789264889667.ogg",
