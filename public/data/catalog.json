@@ -1,5 +1,65 @@
 [
   {
+    "id": "loop_228",
+    "filename": "ST_Loop_125_C_1789265358641.ogg",
+    "url": "/loops/ST_Loop_125_C_1789265358641.ogg",
+    "title": "Acoustic Guitar Loop (125 BPM - C)",
+    "category": "Acoustic Guitar",
+    "bpm": 125,
+    "key": "C",
+    "fileSize": 492882,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:09:18.668Z"
+  },
+  {
+    "id": "loop_227",
+    "filename": "ST_Loop_120_C_1789265358232.ogg",
+    "url": "/loops/ST_Loop_120_C_1789265358232.ogg",
+    "title": "Bass & 808 Loop (120 BPM - C)",
+    "category": "Bass & 808",
+    "bpm": 120,
+    "key": "C",
+    "fileSize": 260516,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:09:18.259Z"
+  },
+  {
+    "id": "loop_226",
+    "filename": "ST_Loop_120_C_1789265356892.ogg",
+    "url": "/loops/ST_Loop_120_C_1789265356892.ogg",
+    "title": "Bass & 808 Loop (120 BPM - C)",
+    "category": "Bass & 808",
+    "bpm": 120,
+    "key": "C",
+    "fileSize": 288321,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:09:16.920Z"
+  },
+  {
+    "id": "loop_225",
+    "filename": "ST_Loop_103_Am_1789265353866.ogg",
+    "url": "/loops/ST_Loop_103_Am_1789265353866.ogg",
+    "title": "Drums & Percussion Loop (103 BPM - Am)",
+    "category": "Drums & Percussion",
+    "bpm": 103,
+    "key": "Am",
+    "fileSize": 542862,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:09:13.890Z"
+  },
+  {
+    "id": "loop_224",
+    "filename": "ST_Loop_130_C_1789265347662.ogg",
+    "url": "/loops/ST_Loop_130_C_1789265347662.ogg",
+    "title": "Drums & Percussion Loop (130 BPM - C)",
+    "category": "Drums & Percussion",
+    "bpm": 130,
+    "key": "C",
+    "fileSize": 528735,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:09:07.687Z"
+  },
+  {
     "id": "loop_223",
     "filename": "ST_Loop_120_C_1789265345355.ogg",
     "url": "/loops/ST_Loop_120_C_1789265345355.ogg",
