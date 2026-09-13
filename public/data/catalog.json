@@ -1,5 +1,29 @@
 [
   {
+    "id": "loop_201",
+    "filename": "ST_Loop_85__1789265222544.ogg",
+    "url": "/loops/ST_Loop_85__1789265222544.ogg",
+    "title": "Acoustic Guitar Loop (85 BPM - C Maj)",
+    "category": "Acoustic Guitar",
+    "bpm": 85,
+    "key": "C Maj",
+    "fileSize": 369105,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:07:02.568Z"
+  },
+  {
+    "id": "loop_200",
+    "filename": "ST_Loop_100__1789265216864.ogg",
+    "url": "/loops/ST_Loop_100__1789265216864.ogg",
+    "title": "Keys & Synths Loop (100 BPM - C Maj)",
+    "category": "Keys & Synths",
+    "bpm": 100,
+    "key": "C Maj",
+    "fileSize": 669608,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:06:56.891Z"
+  },
+  {
     "id": "loop_199",
     "filename": "ST_Loop_116__1789265216669.ogg",
     "url": "/loops/ST_Loop_116__1789265216669.ogg",
