@@ -1,5 +1,29 @@
 [
   {
+    "id": "loop_85",
+    "filename": "ST_Loop_132_Cm_1789264737793.ogg",
+    "url": "/loops/ST_Loop_132_Cm_1789264737793.ogg",
+    "title": "Acoustic Guitar Loop (132 BPM - Cm)",
+    "category": "Acoustic Guitar",
+    "bpm": 132,
+    "key": "Cm",
+    "fileSize": 590746,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:58:57.816Z"
+  },
+  {
+    "id": "loop_84",
+    "filename": "ST_Loop_142_Dm_1789264735422.ogg",
+    "url": "/loops/ST_Loop_142_Dm_1789264735422.ogg",
+    "title": "Keys & Synths Loop (142 BPM - Dm)",
+    "category": "Keys & Synths",
+    "bpm": 142,
+    "key": "Dm",
+    "fileSize": 200767,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:58:55.443Z"
+  },
+  {
     "id": "loop_83",
     "filename": "ST_Loop_82_Cm_1789264730653.ogg",
     "url": "/loops/ST_Loop_82_Cm_1789264730653.ogg",
