@@ -1,3 +1,14 @@
+if (process.env.VERCEL) {
+  module.exports = {
+    isUrlDownloaded: () => false,
+    isChecksumDownloaded: () => false,
+    recordLoop: () => {},
+    getAllLoops: () => [],
+    getStats: () => ({ totalLoops: 0, totalBytes: 0, totalMB: '0.00' })
+  };
+  return;
+}
+
 const fs = require('node:fs');
 const path = require('node:path');
 const config = require('../config');

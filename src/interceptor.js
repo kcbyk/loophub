@@ -1,3 +1,11 @@
+if (process.env.VERCEL) {
+  module.exports = {
+    attachAudioInterceptor: () => {},
+    interceptorEvents: { on: () => {}, emit: () => {} }
+  };
+  return;
+}
+
 const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');

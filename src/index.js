@@ -1,3 +1,7 @@
+if (process.env.VERCEL) {
+  return;
+}
+
 const { startServer } = require('./server');
 const bot = require('./bot');
 

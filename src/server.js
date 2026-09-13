@@ -1,3 +1,8 @@
+if (process.env.VERCEL) {
+  module.exports = { app: null, startServer: async () => {} };
+  return;
+}
+
 const express = require('express');
 const cors = require('cors');
 const path = require('node:path');
