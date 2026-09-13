@@ -1,5 +1,6 @@
 {
   "cleanUrls": true,
+  "outputDirectory": "public",
   "headers": [
     {
       "source": "/loops/(.*)",
@@ -22,24 +23,6 @@
           "value": "public, max-age=3600"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/public/index.html"
-    },
-    {
-      "source": "/loops/:match*",
-      "destination": "/public/loops/:match*"
-    },
-    {
-      "source": "/data/:match*",
-      "destination": "/public/data/:match*"
-    },
-    {
-      "source": "/:match*",
-      "destination": "/public/:match*"
     }
   ]
 }

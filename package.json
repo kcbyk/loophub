@@ -4,6 +4,7 @@
   "description": "Automated Audio Downloader & Loop Harvester for Soundtrap with Network Interception and Express Dashboard",
   "main": "src/index.js",
   "scripts": {
+    "build": "node -e \"console.log('LoopHub static build complete.')\"",
     "start": "node src/index.js",
     "bot": "node src/bot.js",
     "dashboard": "node src/server.js"

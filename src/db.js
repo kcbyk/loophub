@@ -2,9 +2,13 @@ const fs = require('node:fs');
 const path = require('node:path');
 const config = require('../config');
 
-// Ensure data directory exists
-if (!fs.existsSync(config.dataDir)) {
-  fs.mkdirSync(config.dataDir, { recursive: true });
+// Ensure data directory exists (with fallback for read-only environments)
+try {
+  if (!fs.existsSync(config.dataDir)) {
+    fs.mkdirSync(config.dataDir, { recursive: true });
+  }
+} catch (e) {
+  // Gracefully continue on read-only environments like Vercel
 }
 
 let dbInstance = null;
