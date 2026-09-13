@@ -1,5 +1,41 @@
 [
   {
+    "id": "loop_255",
+    "filename": "ST_Loop_170__1789265488911.ogg",
+    "url": "/loops/ST_Loop_170__1789265488911.ogg",
+    "title": "Acoustic Guitar Loop (170 BPM - C Maj)",
+    "category": "Acoustic Guitar",
+    "bpm": 170,
+    "key": "C Maj",
+    "fileSize": 475202,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:11:28.940Z"
+  },
+  {
+    "id": "loop_254",
+    "filename": "ST_Loop_85_Am_1789265484181.ogg",
+    "url": "/loops/ST_Loop_85_Am_1789265484181.ogg",
+    "title": "Electric Guitar Loop (85 BPM - Am)",
+    "category": "Electric Guitar",
+    "bpm": 85,
+    "key": "Am",
+    "fileSize": 190474,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:11:24.208Z"
+  },
+  {
+    "id": "loop_253",
+    "filename": "ST_Loop_85_Am_1789265482144.ogg",
+    "url": "/loops/ST_Loop_85_Am_1789265482144.ogg",
+    "title": "Acoustic Guitar Loop (85 BPM - Am)",
+    "category": "Acoustic Guitar",
+    "bpm": 85,
+    "key": "Am",
+    "fileSize": 1068486,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:11:22.171Z"
+  },
+  {
     "id": "loop_252",
     "filename": "ST_Loop_85_Am_1789265481302.ogg",
     "url": "/loops/ST_Loop_85_Am_1789265481302.ogg",
