@@ -1,5 +1,29 @@
 [
   {
+    "id": "loop_76",
+    "filename": "ST_Loop_134__1789264719641.ogg",
+    "url": "/loops/ST_Loop_134__1789264719641.ogg",
+    "title": "Bass & 808 Loop (134 BPM - C Maj)",
+    "category": "Bass & 808",
+    "bpm": 134,
+    "key": "C Maj",
+    "fileSize": 250708,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:58:39.665Z"
+  },
+  {
+    "id": "loop_75",
+    "filename": "ST_Loop_150__1789264719298.ogg",
+    "url": "/loops/ST_Loop_150__1789264719298.ogg",
+    "title": "Drums & Percussion Loop (150 BPM - C Maj)",
+    "category": "Drums & Percussion",
+    "bpm": 150,
+    "key": "C Maj",
+    "fileSize": 434876,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:58:39.327Z"
+  },
+  {
     "id": "loop_74",
     "filename": "ST_Loop_190__1789264719149.ogg",
     "url": "/loops/ST_Loop_190__1789264719149.ogg",
