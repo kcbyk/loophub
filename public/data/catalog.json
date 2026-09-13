@@ -1,5 +1,41 @@
 [
   {
+    "id": "loop_223",
+    "filename": "ST_Loop_120_C_1789265345355.ogg",
+    "url": "/loops/ST_Loop_120_C_1789265345355.ogg",
+    "title": "Electric Guitar Loop (120 BPM - C)",
+    "category": "Electric Guitar",
+    "bpm": 120,
+    "key": "C",
+    "fileSize": 368304,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:09:05.379Z"
+  },
+  {
+    "id": "loop_222",
+    "filename": "ST_Loop_110_Am_1789265345181.ogg",
+    "url": "/loops/ST_Loop_110_Am_1789265345181.ogg",
+    "title": "Bass & 808 Loop (110 BPM - Am)",
+    "category": "Bass & 808",
+    "bpm": 110,
+    "key": "Am",
+    "fileSize": 547415,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:09:05.205Z"
+  },
+  {
+    "id": "loop_221",
+    "filename": "ST_Loop_109__1789265339421.ogg",
+    "url": "/loops/ST_Loop_109__1789265339421.ogg",
+    "title": "Electric Guitar Loop (109 BPM - C Maj)",
+    "category": "Electric Guitar",
+    "bpm": 109,
+    "key": "C Maj",
+    "fileSize": 215807,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:08:59.443Z"
+  },
+  {
     "id": "loop_220",
     "filename": "ST_Loop_85__1789265335306.ogg",
     "url": "/loops/ST_Loop_85__1789265335306.ogg",
