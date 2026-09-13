@@ -1,5 +1,41 @@
 [
   {
+    "id": "loop_242",
+    "filename": "ST_Loop_170_Am_1789265427221.ogg",
+    "url": "/loops/ST_Loop_170_Am_1789265427221.ogg",
+    "title": "Electric Guitar Loop (170 BPM - Am)",
+    "category": "Electric Guitar",
+    "bpm": 170,
+    "key": "Am",
+    "fileSize": 350415,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:10:27.246Z"
+  },
+  {
+    "id": "loop_241",
+    "filename": "ST_Loop_85_Am_1789265424879.ogg",
+    "url": "/loops/ST_Loop_85_Am_1789265424879.ogg",
+    "title": "Bass & 808 Loop (85 BPM - Am)",
+    "category": "Bass & 808",
+    "bpm": 85,
+    "key": "Am",
+    "fileSize": 361911,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:10:24.925Z"
+  },
+  {
+    "id": "loop_240",
+    "filename": "ST_Loop_85_C_1789265424874.ogg",
+    "url": "/loops/ST_Loop_85_C_1789265424874.ogg",
+    "title": "Keys & Synths Loop (85 BPM - C)",
+    "category": "Keys & Synths",
+    "bpm": 85,
+    "key": "C",
+    "fileSize": 392402,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:10:24.900Z"
+  },
+  {
     "id": "loop_239",
     "filename": "ST_Loop_100_Am_1789265411793.ogg",
     "url": "/loops/ST_Loop_100_Am_1789265411793.ogg",
