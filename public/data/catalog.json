@@ -1,5 +1,77 @@
 [
   {
+    "id": "loop_100",
+    "filename": "ST_Loop_126__1789264779581.ogg",
+    "url": "/loops/ST_Loop_126__1789264779581.ogg",
+    "title": "Bass & 808 Loop (126 BPM - C Maj)",
+    "category": "Bass & 808",
+    "bpm": 126,
+    "key": "C Maj",
+    "fileSize": 297307,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:59:39.604Z"
+  },
+  {
+    "id": "loop_99",
+    "filename": "ST_Loop_80_Dbm_1789264778591.ogg",
+    "url": "/loops/ST_Loop_80_Dbm_1789264778591.ogg",
+    "title": "Keys & Synths Loop (80 BPM - Dbm)",
+    "category": "Keys & Synths",
+    "bpm": 80,
+    "key": "Dbm",
+    "fileSize": 247466,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:59:38.618Z"
+  },
+  {
+    "id": "loop_98",
+    "filename": "ST_Loop_114__1789264778557.ogg",
+    "url": "/loops/ST_Loop_114__1789264778557.ogg",
+    "title": "Acoustic Guitar Loop (114 BPM - C Maj)",
+    "category": "Acoustic Guitar",
+    "bpm": 114,
+    "key": "C Maj",
+    "fileSize": 324050,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:59:38.584Z"
+  },
+  {
+    "id": "loop_97",
+    "filename": "ST_Loop_154__1789264778446.ogg",
+    "url": "/loops/ST_Loop_154__1789264778446.ogg",
+    "title": "Bass & 808 Loop (154 BPM - C Maj)",
+    "category": "Bass & 808",
+    "bpm": 154,
+    "key": "C Maj",
+    "fileSize": 230514,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:59:38.470Z"
+  },
+  {
+    "id": "loop_96",
+    "filename": "ST_Loop_90_G_1789264778296.ogg",
+    "url": "/loops/ST_Loop_90_G_1789264778296.ogg",
+    "title": "Electric Guitar Loop (90 BPM - G)",
+    "category": "Electric Guitar",
+    "bpm": 90,
+    "key": "G",
+    "fileSize": 697138,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:59:38.326Z"
+  },
+  {
+    "id": "loop_95",
+    "filename": "ST_Loop_158__1789264778232.ogg",
+    "url": "/loops/ST_Loop_158__1789264778232.ogg",
+    "title": "Electric Guitar Loop (158 BPM - C Maj)",
+    "category": "Electric Guitar",
+    "bpm": 158,
+    "key": "C Maj",
+    "fileSize": 122568,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:59:38.260Z"
+  },
+  {
     "id": "loop_94",
     "filename": "ST_Loop_156__1789264776447.ogg",
     "url": "/loops/ST_Loop_156__1789264776447.ogg",
