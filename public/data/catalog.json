@@ -1,5 +1,29 @@
 [
   {
+    "id": "loop_163",
+    "filename": "ST_Loop_120_Am_1789265059490.ogg",
+    "url": "/loops/ST_Loop_120_Am_1789265059490.ogg",
+    "title": "Drums & Percussion Loop (120 BPM - Am)",
+    "category": "Drums & Percussion",
+    "bpm": 120,
+    "key": "Am",
+    "fileSize": 661125,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:04:19.515Z"
+  },
+  {
+    "id": "loop_162",
+    "filename": "ST_Loop_120_Am_1789265055864.ogg",
+    "url": "/loops/ST_Loop_120_Am_1789265055864.ogg",
+    "title": "Electric Guitar Loop (120 BPM - Am)",
+    "category": "Electric Guitar",
+    "bpm": 120,
+    "key": "Am",
+    "fileSize": 401285,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:04:15.888Z"
+  },
+  {
     "id": "loop_161",
     "filename": "ST_Loop_240_Am_1789265051180.ogg",
     "url": "/loops/ST_Loop_240_Am_1789265051180.ogg",
