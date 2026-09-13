@@ -1,5 +1,77 @@
 [
   {
+    "id": "loop_51",
+    "filename": "ST_Loop_features1_1789262286351.mp3",
+    "url": "/loops/ST_Loop_features1_1789262286351.mp3",
+    "title": "Bass & 808 Loop (120 BPM - C Maj)",
+    "category": "Bass & 808",
+    "bpm": 120,
+    "key": "C Maj",
+    "fileSize": 3383,
+    "format": "MP3",
+    "createdAt": "2026-09-13T01:18:06.375Z"
+  },
+  {
+    "id": "loop_50",
+    "filename": "ST_Loop_offers1_1789262284319.mp3",
+    "url": "/loops/ST_Loop_offers1_1789262284319.mp3",
+    "title": "Acoustic Guitar Loop (120 BPM - C Maj)",
+    "category": "Acoustic Guitar",
+    "bpm": 120,
+    "key": "C Maj",
+    "fileSize": 8685,
+    "format": "MP3",
+    "createdAt": "2026-09-13T01:18:04.369Z"
+  },
+  {
+    "id": "loop_49",
+    "filename": "ST_Loop_update-payment-details-nudge-d_1789262284318.mp3",
+    "url": "/loops/ST_Loop_update-payment-details-nudge-d_1789262284318.mp3",
+    "title": "Drums & Percussion Loop (120 BPM - C Maj)",
+    "category": "Drums & Percussion",
+    "bpm": 120,
+    "key": "C Maj",
+    "fileSize": 182560,
+    "format": "MP3",
+    "createdAt": "2026-09-13T01:18:04.345Z"
+  },
+  {
+    "id": "loop_48",
+    "filename": "ST_Loop_74_Cm_1789262255502.ogg",
+    "url": "/loops/ST_Loop_74_Cm_1789262255502.ogg",
+    "title": "Electric Guitar Loop (74 BPM - Cm)",
+    "category": "Electric Guitar",
+    "bpm": 74,
+    "key": "Cm",
+    "fileSize": 475943,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:17:35.525Z"
+  },
+  {
+    "id": "loop_47",
+    "filename": "ST_Loop_110_Bm_1789262253346.ogg",
+    "url": "/loops/ST_Loop_110_Bm_1789262253346.ogg",
+    "title": "Acoustic Guitar Loop (110 BPM - Bm)",
+    "category": "Acoustic Guitar",
+    "bpm": 110,
+    "key": "Bm",
+    "fileSize": 310063,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:17:33.366Z"
+  },
+  {
+    "id": "loop_46",
+    "filename": "ST_Loop_160_C_1789262251609.ogg",
+    "url": "/loops/ST_Loop_160_C_1789262251609.ogg",
+    "title": "Drums & Percussion Loop (160 BPM - C)",
+    "category": "Drums & Percussion",
+    "bpm": 160,
+    "key": "C",
+    "fileSize": 311890,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:17:31.638Z"
+  },
+  {
     "id": "loop_45",
     "filename": "ST_Loop_160_Am_1789262248305.ogg",
     "url": "/loops/ST_Loop_160_Am_1789262248305.ogg",
