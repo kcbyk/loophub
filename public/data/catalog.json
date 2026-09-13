@@ -1,5 +1,41 @@
 [
   {
+    "id": "loop_154",
+    "filename": "ST_Loop_60_C_1789265012824.ogg",
+    "url": "/loops/ST_Loop_60_C_1789265012824.ogg",
+    "title": "Acoustic Guitar Loop (60 BPM - C)",
+    "category": "Acoustic Guitar",
+    "bpm": 60,
+    "key": "C",
+    "fileSize": 845945,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:03:32.847Z"
+  },
+  {
+    "id": "loop_153",
+    "filename": "ST_Loop_120__1789265007272.ogg",
+    "url": "/loops/ST_Loop_120__1789265007272.ogg",
+    "title": "Drums & Percussion Loop (120 BPM - C Maj)",
+    "category": "Drums & Percussion",
+    "bpm": 120,
+    "key": "C Maj",
+    "fileSize": 594860,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:03:27.301Z"
+  },
+  {
+    "id": "loop_152",
+    "filename": "ST_Loop_120__1789265006769.ogg",
+    "url": "/loops/ST_Loop_120__1789265006769.ogg",
+    "title": "Drums & Percussion Loop (120 BPM - C Maj)",
+    "category": "Drums & Percussion",
+    "bpm": 120,
+    "key": "C Maj",
+    "fileSize": 370452,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:03:26.791Z"
+  },
+  {
     "id": "loop_151",
     "filename": "ST_Loop_240_C_1789264997631.ogg",
     "url": "/loops/ST_Loop_240_C_1789264997631.ogg",
