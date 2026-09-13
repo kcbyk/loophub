@@ -1,5 +1,29 @@
 [
   {
+    "id": "loop_220",
+    "filename": "ST_Loop_85__1789265335306.ogg",
+    "url": "/loops/ST_Loop_85__1789265335306.ogg",
+    "title": "Bass & 808 Loop (85 BPM - C Maj)",
+    "category": "Bass & 808",
+    "bpm": 85,
+    "key": "C Maj",
+    "fileSize": 356524,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:08:55.326Z"
+  },
+  {
+    "id": "loop_219",
+    "filename": "ST_Loop_85__1789265331983.ogg",
+    "url": "/loops/ST_Loop_85__1789265331983.ogg",
+    "title": "Electric Guitar Loop (85 BPM - C Maj)",
+    "category": "Electric Guitar",
+    "bpm": 85,
+    "key": "C Maj",
+    "fileSize": 347741,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:08:52.007Z"
+  },
+  {
     "id": "loop_218",
     "filename": "ST_Loop_120_Am_1789265330212.ogg",
     "url": "/loops/ST_Loop_120_Am_1789265330212.ogg",
