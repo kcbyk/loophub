@@ -1,5 +1,41 @@
 [
   {
+    "id": "loop_148",
+    "filename": "ST_Loop_120_Am_1789264983514.ogg",
+    "url": "/loops/ST_Loop_120_Am_1789264983514.ogg",
+    "title": "Keys & Synths Loop (120 BPM - Am)",
+    "category": "Keys & Synths",
+    "bpm": 120,
+    "key": "Am",
+    "fileSize": 627286,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:03:03.543Z"
+  },
+  {
+    "id": "loop_147",
+    "filename": "ST_Loop_80_G_1789264983451.ogg",
+    "url": "/loops/ST_Loop_80_G_1789264983451.ogg",
+    "title": "Electric Guitar Loop (80 BPM - G)",
+    "category": "Electric Guitar",
+    "bpm": 80,
+    "key": "G",
+    "fileSize": 404846,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:03:03.482Z"
+  },
+  {
+    "id": "loop_146",
+    "filename": "ST_Loop_150_Em_1789264983011.ogg",
+    "url": "/loops/ST_Loop_150_Em_1789264983011.ogg",
+    "title": "Electric Guitar Loop (150 BPM - Em)",
+    "category": "Electric Guitar",
+    "bpm": 150,
+    "key": "Em",
+    "fileSize": 522980,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:03:03.035Z"
+  },
+  {
     "id": "loop_145",
     "filename": "ST_Loop_102_C_1789264979906.ogg",
     "url": "/loops/ST_Loop_102_C_1789264979906.ogg",
