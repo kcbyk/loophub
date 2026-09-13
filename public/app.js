@@ -310,12 +310,13 @@ async function loadCatalog() {
 
   // Tier 1: Try /data/catalog.json
   try {
-    const res = await fetch('/data/catalog.json');
+    const res = await fetch('/data/catalog.json?t=' + Date.now());
     if (res.ok) {
       const text = await res.text();
       if (text && (text.trim().startsWith('[') || text.trim().startsWith('{'))) {
         const parsed = JSON.parse(text);
-        loadedData = Array.isArray(parsed) ? parsed : (parsed.loops || null);
+        const arr = Array.isArray(parsed) ? parsed : (parsed.loops || null);
+        if (arr && arr.length > 0) loadedData = arr;
       }
     }
   } catch (e) {
@@ -325,12 +326,13 @@ async function loadCatalog() {
   // Tier 2: Try /api/loops
   if (!loadedData || !Array.isArray(loadedData) || loadedData.length === 0) {
     try {
-      const res2 = await fetch('/api/loops');
+      const res2 = await fetch('/api/loops?t=' + Date.now());
       if (res2.ok) {
         const text2 = await res2.text();
         if (text2 && (text2.trim().startsWith('[') || text2.trim().startsWith('{'))) {
           const parsed2 = JSON.parse(text2);
-          loadedData = Array.isArray(parsed2) ? parsed2 : (parsed2.loops || null);
+          const arr2 = Array.isArray(parsed2) ? parsed2 : (parsed2.loops || null);
+          if (arr2 && arr2.length > 0) loadedData = arr2;
         }
       }
     } catch (e) {
