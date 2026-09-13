@@ -51,14 +51,16 @@ function getExtension(mimeType, url) {
 function generateFilename(url, mimeType, buffer) {
   const ext = getExtension(mimeType, url);
   let id = '';
-  let title = '';
 
   try {
     const parsed = new URL(url);
     const parts = parsed.pathname.split('/').filter(Boolean);
-    const lastPart = parts[parts.length - 1] || 'sample';
-    const cleanLast = lastPart.replace(/\.[^/.]+$/, '').replace(/[^a-zA-Z0-9_-]/g, '_');
-    id = cleanLast.slice(0, 30);
+    let candidate = parts[parts.length - 1] || 'sample';
+    candidate = candidate.replace(/\.[^/.]+$/, '');
+    if ((candidate === 's' || candidate === 'sample') && parts.length >= 2) {
+      candidate = parts[parts.length - 2];
+    }
+    id = candidate.replace(/[^a-zA-Z0-9_-]/g, '_').slice(0, 30);
   } catch {
     id = 'sample';
   }
@@ -79,7 +81,7 @@ function attachAudioInterceptor(page) {
       const url = response.url();
       const status = response.status();
 
-      // Only handle successful responses
+      // Only handle successful responses (200 OK or 206 Partial Content)
       if (status !== 200 && status !== 206) return;
 
       const headers = response.headers();
@@ -123,13 +125,22 @@ function attachAudioInterceptor(page) {
       console.log(`🔗 URL: ${url.slice(0, 100)}...`);
 
       // Read binary buffer
-      const buffer = await response.body().catch(err => {
-        console.warn(`⚠️ Failed to read audio buffer: ${err.message}`);
-        return null;
-      });
+      let buffer = await response.body().catch(() => null);
+
+      // Fallback: If response.body() failed (e.g. 206 Partial Content or redirect),
+      // fetch directly using page.request with the authenticated browser session!
+      if (!buffer || buffer.length < 2048) {
+        try {
+          const directRes = await page.request.get(url, { timeout: 15000 });
+          if (directRes && directRes.ok()) {
+            buffer = await directRes.body();
+          }
+        } catch (fetchErr) {
+          // Direct fetch failed
+        }
+      }
 
       if (!buffer || buffer.length < 2048) {
-        // Less than 2KB is probably an error or tiny notification beep
         return;
       }
 
