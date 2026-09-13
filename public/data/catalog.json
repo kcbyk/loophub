@@ -1,5 +1,53 @@
 [
   {
+    "id": "loop_194",
+    "filename": "ST_Loop_154__1789265198080.ogg",
+    "url": "/loops/ST_Loop_154__1789265198080.ogg",
+    "title": "Bass & 808 Loop (154 BPM - C Maj)",
+    "category": "Bass & 808",
+    "bpm": 154,
+    "key": "C Maj",
+    "fileSize": 138258,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:06:38.123Z"
+  },
+  {
+    "id": "loop_193",
+    "filename": "ST_Loop_86__1789265198077.ogg",
+    "url": "/loops/ST_Loop_86__1789265198077.ogg",
+    "title": "Keys & Synths Loop (86 BPM - C Maj)",
+    "category": "Keys & Synths",
+    "bpm": 86,
+    "key": "C Maj",
+    "fileSize": 747237,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:06:38.104Z"
+  },
+  {
+    "id": "loop_192",
+    "filename": "ST_Loop_160__1789265196728.ogg",
+    "url": "/loops/ST_Loop_160__1789265196728.ogg",
+    "title": "Bass & 808 Loop (160 BPM - C Maj)",
+    "category": "Bass & 808",
+    "bpm": 160,
+    "key": "C Maj",
+    "fileSize": 222151,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:06:36.749Z"
+  },
+  {
+    "id": "loop_191",
+    "filename": "ST_Loop_100__1789265193571.ogg",
+    "url": "/loops/ST_Loop_100__1789265193571.ogg",
+    "title": "Electric Guitar Loop (100 BPM - C Maj)",
+    "category": "Electric Guitar",
+    "bpm": 100,
+    "key": "C Maj",
+    "fileSize": 618394,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:06:33.621Z"
+  },
+  {
     "id": "loop_190",
     "filename": "ST_Loop_140__1789265191161.ogg",
     "url": "/loops/ST_Loop_140__1789265191161.ogg",
