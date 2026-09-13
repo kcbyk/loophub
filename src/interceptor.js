@@ -102,6 +102,18 @@ function attachAudioInterceptor(page) {
 
       if (!isAudioMime && !isAudioUrl) return;
 
+      // Reject non-music promotional or banner audio
+      const lowerUrl = url.toLowerCase();
+      if (
+        lowerUrl.includes('banner') ||
+        lowerUrl.includes('offer') ||
+        lowerUrl.includes('payment') ||
+        lowerUrl.includes('nudge') ||
+        lowerUrl.includes('features')
+      ) {
+        return;
+      }
+
       // Duplicate check 1: by URL
       if (db.isUrlDownloaded(url)) {
         return;
