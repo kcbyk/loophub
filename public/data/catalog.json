@@ -1,5 +1,41 @@
 [
   {
+    "id": "loop_262",
+    "filename": "ST_Loop_170_Am_1789265508239.ogg",
+    "url": "/loops/ST_Loop_170_Am_1789265508239.ogg",
+    "title": "Drums & Percussion Loop (170 BPM - Am)",
+    "category": "Drums & Percussion",
+    "bpm": 170,
+    "key": "Am",
+    "fileSize": 410750,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:11:48.311Z"
+  },
+  {
+    "id": "loop_261",
+    "filename": "ST_Loop_170__1789265502010.ogg",
+    "url": "/loops/ST_Loop_170__1789265502010.ogg",
+    "title": "Drums & Percussion Loop (170 BPM - C Maj)",
+    "category": "Drums & Percussion",
+    "bpm": 170,
+    "key": "C Maj",
+    "fileSize": 488987,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:11:42.045Z"
+  },
+  {
+    "id": "loop_260",
+    "filename": "ST_Loop_170_Am_1789265501841.ogg",
+    "url": "/loops/ST_Loop_170_Am_1789265501841.ogg",
+    "title": "Keys & Synths Loop (170 BPM - Am)",
+    "category": "Keys & Synths",
+    "bpm": 170,
+    "key": "Am",
+    "fileSize": 465050,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:11:41.883Z"
+  },
+  {
     "id": "loop_259",
     "filename": "ST_Loop_170_Am_1789265501629.ogg",
     "url": "/loops/ST_Loop_170_Am_1789265501629.ogg",
