@@ -1,5 +1,29 @@
 [
   {
+    "id": "loop_236",
+    "filename": "ST_Loop_85_C_1789265394308.ogg",
+    "url": "/loops/ST_Loop_85_C_1789265394308.ogg",
+    "title": "Drums & Percussion Loop (85 BPM - C)",
+    "category": "Drums & Percussion",
+    "bpm": 85,
+    "key": "C",
+    "fileSize": 375002,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:09:54.330Z"
+  },
+  {
+    "id": "loop_235",
+    "filename": "ST_Loop_80_C_1789265393698.ogg",
+    "url": "/loops/ST_Loop_80_C_1789265393698.ogg",
+    "title": "Electric Guitar Loop (80 BPM - C)",
+    "category": "Electric Guitar",
+    "bpm": 80,
+    "key": "C",
+    "fileSize": 415762,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:09:53.719Z"
+  },
+  {
     "id": "loop_234",
     "filename": "ST_Loop_100_C_1789265388069.ogg",
     "url": "/loops/ST_Loop_100_C_1789265388069.ogg",
