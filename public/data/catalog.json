@@ -1,5 +1,41 @@
 [
   {
+    "id": "loop_65",
+    "filename": "ST_Loop_143_Dm_1789262896306.ogg",
+    "url": "/loops/ST_Loop_143_Dm_1789262896306.ogg",
+    "title": "Drums & Percussion Loop (143 BPM - Dm)",
+    "category": "Drums & Percussion",
+    "bpm": 143,
+    "key": "Dm",
+    "fileSize": 160090,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:28:16.329Z"
+  },
+  {
+    "id": "loop_64",
+    "filename": "ST_Loop_140_Dm_1789262886915.ogg",
+    "url": "/loops/ST_Loop_140_Dm_1789262886915.ogg",
+    "title": "Keys & Synths Loop (140 BPM - Dm)",
+    "category": "Keys & Synths",
+    "bpm": 140,
+    "key": "Dm",
+    "fileSize": 190714,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:28:06.948Z"
+  },
+  {
+    "id": "loop_63",
+    "filename": "ST_Loop_150_Em_1789262885201.ogg",
+    "url": "/loops/ST_Loop_150_Em_1789262885201.ogg",
+    "title": "Electric Guitar Loop (150 BPM - Em)",
+    "category": "Electric Guitar",
+    "bpm": 150,
+    "key": "Em",
+    "fileSize": 306242,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:28:05.226Z"
+  },
+  {
     "id": "loop_62",
     "filename": "ST_Loop_138_Gm_1789262882437.ogg",
     "url": "/loops/ST_Loop_138_Gm_1789262882437.ogg",
