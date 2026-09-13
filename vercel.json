@@ -1,26 +1,45 @@
 {
-  "version": 2,
-  "public": true,
   "cleanUrls": true,
-  "routes": [
+  "headers": [
     {
-      "src": "/loops/(.*)",
-      "headers": {
-        "cache-control": "public, max-age=31536000, immutable",
-        "accept-ranges": "bytes"
-      },
-      "dest": "/public/loops/$1"
+      "source": "/loops/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ]
     },
     {
-      "src": "/data/(.*)",
-      "headers": {
-        "cache-control": "public, max-age=3600"
-      },
-      "dest": "/public/data/$1"
+      "source": "/data/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/public/index.html"
     },
     {
-      "src": "/(.*)",
-      "dest": "/public/$1"
+      "source": "/loops/:match*",
+      "destination": "/public/loops/:match*"
+    },
+    {
+      "source": "/data/:match*",
+      "destination": "/public/data/:match*"
+    },
+    {
+      "source": "/:match*",
+      "destination": "/public/:match*"
     }
   ]
 }
