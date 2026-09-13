@@ -1,5 +1,29 @@
 [
   {
+    "id": "loop_231",
+    "filename": "ST_Loop_120__1789265380432.ogg",
+    "url": "/loops/ST_Loop_120__1789265380432.ogg",
+    "title": "Keys & Synths Loop (120 BPM - C Maj)",
+    "category": "Keys & Synths",
+    "bpm": 120,
+    "key": "C Maj",
+    "fileSize": 302011,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:09:40.458Z"
+  },
+  {
+    "id": "loop_230",
+    "filename": "ST_Loop_135_Am_1789265379180.ogg",
+    "url": "/loops/ST_Loop_135_Am_1789265379180.ogg",
+    "title": "Keys & Synths Loop (135 BPM - Am)",
+    "category": "Keys & Synths",
+    "bpm": 135,
+    "key": "Am",
+    "fileSize": 425778,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:09:39.210Z"
+  },
+  {
     "id": "loop_229",
     "filename": "ST_Loop_120_C_1789265358951.ogg",
     "url": "/loops/ST_Loop_120_C_1789265358951.ogg",
