@@ -1,5 +1,29 @@
 [
   {
+    "id": "loop_150",
+    "filename": "ST_Loop_240_Am_1789264989426.ogg",
+    "url": "/loops/ST_Loop_240_Am_1789264989426.ogg",
+    "title": "Acoustic Guitar Loop (120 BPM - Am)",
+    "category": "Acoustic Guitar",
+    "bpm": 120,
+    "key": "Am",
+    "fileSize": 387478,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:03:09.450Z"
+  },
+  {
+    "id": "loop_149",
+    "filename": "ST_Loop_100_C_1789264988332.ogg",
+    "url": "/loops/ST_Loop_100_C_1789264988332.ogg",
+    "title": "Electric Guitar Loop (100 BPM - C)",
+    "category": "Electric Guitar",
+    "bpm": 100,
+    "key": "C",
+    "fileSize": 371122,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:03:08.358Z"
+  },
+  {
     "id": "loop_148",
     "filename": "ST_Loop_120_Am_1789264983514.ogg",
     "url": "/loops/ST_Loop_120_Am_1789264983514.ogg",
