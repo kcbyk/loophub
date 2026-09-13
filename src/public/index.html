@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soundtrap Loop Harvester & Monitor</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="navbar">
+      <div class="logo-area">
+        <div class="logo-icon">🎵</div>
+        <div class="logo-text">
+          <h1>Soundtrap Audio Harvester</h1>
+          <span class="subtitle">Zero-Manual Automated Interception System</span>
+        </div>
+      </div>
+      <div class="status-badge" id="connectionStatus">
+        <span class="status-dot"></span>
+        <span class="status-text">Canlı Bağlantı Hazır</span>
+      </div>
+    </header>
+
+    <!-- Metrics Cards -->
+    <section class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon">🎧</div>
+        <div class="stat-data">
+          <div class="stat-value" id="statTotalCount">0</div>
+          <div class="stat-label">Toplam İndirilen Loop</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">💾</div>
+        <div class="stat-data">
+          <div class="stat-value" id="statTotalSize">0 MB</div>
+          <div class="stat-label">Disk Kullanımı</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">⚡</div>
+        <div class="stat-data">
+          <div class="stat-value text-accent" id="statStatus">Aktif Dinleme</div>
+          <div class="stat-label">Network Interceptor</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content Area -->
+    <main class="main-content">
+      <div class="panel-header">
+        <div class="panel-title-group">
+          <h2>Yakalanan Ses Loop'ları</h2>
+          <span class="badge" id="loopCounterBadge">0 loop</span>
+        </div>
+        <div class="panel-actions">
+          <input type="text" id="searchInput" placeholder="Loop ara (isim, uzantı)..." class="search-box" />
+          <button id="refreshBtn" class="btn btn-secondary">Yenile</button>
+        </div>
+      </div>
+
+      <div class="table-container">
+        <table class="loops-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Önizleme</th>
+              <th>Dosya Adı</th>
+              <th>Format</th>
+              <th>Boyut</th>
+              <th>İndirilme Zamanı</th>
+              <th>İşlem</th>
+            </tr>
+          </thead>
+          <tbody id="loopsTableBody">
+            <tr class="empty-row">
+              <td colspan="7">Henüz bir loop yakalanmadı. Tarayıcıda loop'lar dinlendikçe buraya canlı akacaktır...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <!-- Sticky Audio Player Bar -->
+    <footer class="player-bar" id="playerBar">
+      <div class="player-info">
+        <span class="now-playing-icon">▶️</span>
+        <div class="now-playing-text">
+          <div class="track-title" id="playerTrackTitle">Bir parça seçin...</div>
+          <div class="track-sub" id="playerTrackSub">Soundtrap Automated Interceptor</div>
+        </div>
+      </div>
+      <div class="player-control-wrapper">
+        <audio id="globalAudio" controls></audio>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

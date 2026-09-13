@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "public": true,
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "/loops/(.*)",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "accept-ranges": "bytes"
+      },
+      "dest": "/public/loops/$1"
+    },
+    {
+      "src": "/data/(.*)",
+      "headers": {
+        "cache-control": "public, max-age=3600"
+      },
+      "dest": "/public/data/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ]
+}

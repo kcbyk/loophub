@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0c10" />
+  <meta name="description" content="LoopHub - Profesyonel stüdyo loop ve ses arşivi. Baslar, akustik gitarlar, davullar, synth ve vokaller." />
+  <title>LoopHub • Studio Sound Library</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Top Bar -->
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-badge">
+          <div class="sound-wave-icon">
+            <span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="brand-title">
+          <h1>LoopHub</h1>
+          <span class="brand-tagline">Studio Audio Vault</span>
+        </div>
+      </div>
+
+      <div class="search-wrapper">
+        <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Loop ara (örn: 120, Am, Gitar, 808)..." autocomplete="off" />
+        <span class="search-shortcut" id="clearSearchBtn">Esc</span>
+      </div>
+
+      <div class="top-stats">
+        <div class="stat-pill">
+          <span class="dot"></span>
+          <span id="totalCountBadge">200+ Loop</span>
+        </div>
+        <a href="https://github.com/kcbyk/loophub" target="_blank" rel="noopener noreferrer" class="github-btn" title="GitHub Deposu">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <!-- Category Tabs Navigation -->
+    <nav class="category-nav-container">
+      <div class="category-tabs" id="categoryTabs">
+        <button class="cat-pill active" data-cat="all">
+          <span class="cat-icon">⚡</span>
+          <span class="cat-label">Tüm Looplar</span>
+          <span class="cat-count" id="count-all">0</span>
+        </button>
+        <button class="cat-pill" data-cat="Acoustic Guitar">
+          <span class="cat-icon">🎸</span>
+          <span class="cat-label">Akustik Gitarlar</span>
+          <span class="cat-count" id="count-acoustic">0</span>
+        </button>
+        <button class="cat-pill" data-cat="Electric Guitar">
+          <span class="cat-icon">🔥</span>
+          <span class="cat-label">Elektro Gitarlar</span>
+          <span class="cat-count" id="count-electric">0</span>
+        </button>
+        <button class="cat-pill" data-cat="Bass & 808">
+          <span class="cat-icon">🔊</span>
+          <span class="cat-label">Baslar & 808</span>
+          <span class="cat-count" id="count-bass">0</span>
+        </button>
+        <button class="cat-pill" data-cat="Drums & Percussion">
+          <span class="cat-icon">🥁</span>
+          <span class="cat-label">Davullar & Beat</span>
+          <span class="cat-count" id="count-drums">0</span>
+        </button>
+        <button class="cat-pill" data-cat="Keys & Synths">
+          <span class="cat-icon">🎹</span>
+          <span class="cat-label">Piyano & Synth</span>
+          <span class="cat-count" id="count-keys">0</span>
+        </button>
+        <button class="cat-pill" data-cat="Vocals">
+          <span class="cat-icon">🎤</span>
+          <span class="cat-label">Vokaller</span>
+          <span class="cat-count" id="count-vocals">0</span>
+        </button>
+        <button class="cat-pill" data-cat="FX & Atmos">
+          <span class="cat-icon">✨</span>
+          <span class="cat-label">FX & Atmosfer</span>
+          <span class="cat-count" id="count-fx">0</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Filters & Sort Sub-bar -->
+    <div class="subfilter-bar">
+      <div class="filter-group">
+        <span class="subfilter-title" id="filterStatusText">Tüm Koleksiyon</span>
+      </div>
+      <div class="filter-controls">
+        <select id="bpmSortSelect" class="styled-select">
+          <option value="default">Sıralama: Önerilen</option>
+          <option value="bpm-asc">BPM: Düşükten Yükseğe</option>
+          <option value="bpm-desc">BPM: Yüksekten Düşüğe</option>
+          <option value="title">İsim: A - Z</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Main Audio Cards Grid -->
+    <main class="content-container">
+      <div class="loops-grid" id="loopsGrid">
+        <!-- Rendered dynamically -->
+        <div class="loading-state">
+          <div class="spinner"></div>
+          <p>Loop arşivi yükleniyor...</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Impeccable Bottom Sticky Music Player -->
+    <aside class="player-dock" id="playerDock">
+      <div class="player-dock-inner">
+        <!-- Track Visual & Meta -->
+        <div class="player-meta">
+          <div class="player-cover" id="playerCover">
+            <span id="playerCoverIcon">🎵</span>
+          </div>
+          <div class="player-texts">
+            <div class="player-title" id="dockTrackTitle">Bir loop seçin</div>
+            <div class="player-sub">
+              <span class="tag-bpm" id="dockBpm">-- BPM</span>
+              <span class="tag-key" id="dockKey">--</span>
+              <span class="tag-cat" id="dockCategory">LoopHub</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Center Controls & Scrubbing -->
+        <div class="player-center">
+          <div class="player-buttons">
+            <button class="ctrl-btn" id="prevBtn" title="Önceki Loop">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <polygon points="19 20 9 12 19 4 19 20"></polygon>
+                <line x1="5" y1="19" x2="5" y2="5" stroke="currentColor" stroke-width="2"></line>
+              </svg>
+            </button>
+            <button class="play-main-btn" id="mainPlayBtn" title="Çal / Duraklat">
+              <svg id="playIcon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                <polygon points="6 3 20 12 6 21 6 3"></polygon>
+              </svg>
+              <svg id="pauseIcon" class="hidden" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                <rect x="6" y="4" width="4" height="16"></rect>
+                <rect x="14" y="4" width="4" height="16"></rect>
+              </svg>
+            </button>
+            <button class="ctrl-btn" id="nextBtn" title="Sonraki Loop">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <polygon points="5 4 15 12 5 20 5 4"></polygon>
+                <line x1="19" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="2"></line>
+              </svg>
+            </button>
+            <button class="ctrl-btn loop-btn active" id="loopToggleBtn" title="Sonsuz Döngü (Loop)">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="17 1 21 5 17 9"></polyline>
+                <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+                <polyline points="7 23 3 19 7 15"></polyline>
+                <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Progress / Scrubber Bar -->
+          <div class="scrub-container">
+            <span class="time-label" id="currentTimeLabel">0:00</span>
+            <div class="progress-bar-bg" id="progressBarBg">
+              <div class="progress-fill" id="progressFill"></div>
+              <div class="progress-handle" id="progressHandle"></div>
+            </div>
+            <span class="time-label" id="durationLabel">0:00</span>
+          </div>
+        </div>
+
+        <!-- Right Side Utility (Volume, Download) -->
+        <div class="player-actions">
+          <div class="volume-box">
+            <button class="ctrl-btn-mini" id="muteBtn" title="Sessiz">
+              <svg id="volHighIcon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+              </svg>
+            </button>
+            <input type="range" id="volumeSlider" min="0" max="1" step="0.02" value="0.9" class="volume-range" />
+          </div>
+          <a id="dockDownloadBtn" href="#" download class="btn-download" title="Loop İndir">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>İndir</span>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+  </div>
+
+  <audio id="coreAudio" preload="auto"></audio>
+  <script src="app.js"></script>
+</body>
+</html>
