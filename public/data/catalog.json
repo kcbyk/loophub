@@ -1,5 +1,41 @@
 [
   {
+    "id": "loop_206",
+    "filename": "ST_Loop_133_C_1789265245814.ogg",
+    "url": "/loops/ST_Loop_133_C_1789265245814.ogg",
+    "title": "Bass & 808 Loop (133 BPM - C)",
+    "category": "Bass & 808",
+    "bpm": 133,
+    "key": "C",
+    "fileSize": 893851,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:07:25.887Z"
+  },
+  {
+    "id": "loop_205",
+    "filename": "ST_Loop_120_C_1789265245760.ogg",
+    "url": "/loops/ST_Loop_120_C_1789265245760.ogg",
+    "title": "Drums & Percussion Loop (120 BPM - C)",
+    "category": "Drums & Percussion",
+    "bpm": 120,
+    "key": "C",
+    "fileSize": 243327,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:07:25.800Z"
+  },
+  {
+    "id": "loop_204",
+    "filename": "ST_Loop_118_Am_1789265245196.ogg",
+    "url": "/loops/ST_Loop_118_Am_1789265245196.ogg",
+    "title": "Keys & Synths Loop (118 BPM - Am)",
+    "category": "Keys & Synths",
+    "bpm": 118,
+    "key": "Am",
+    "fileSize": 269947,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:07:25.217Z"
+  },
+  {
     "id": "loop_203",
     "filename": "ST_Loop_90_Am_1789265233538.ogg",
     "url": "/loops/ST_Loop_90_Am_1789265233538.ogg",
