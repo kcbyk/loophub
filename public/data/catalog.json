@@ -1,5 +1,41 @@
 [
   {
+    "id": "loop_189",
+    "filename": "ST_Loop_150_Am_1789265177304.ogg",
+    "url": "/loops/ST_Loop_150_Am_1789265177304.ogg",
+    "title": "Acoustic Guitar Loop (150 BPM - Am)",
+    "category": "Acoustic Guitar",
+    "bpm": 150,
+    "key": "Am",
+    "fileSize": 519932,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:06:17.333Z"
+  },
+  {
+    "id": "loop_188",
+    "filename": "ST_Loop_132_C_1789265177257.ogg",
+    "url": "/loops/ST_Loop_132_C_1789265177257.ogg",
+    "title": "Acoustic Guitar Loop (132 BPM - C)",
+    "category": "Acoustic Guitar",
+    "bpm": 132,
+    "key": "C",
+    "fileSize": 247984,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:06:17.284Z"
+  },
+  {
+    "id": "loop_187",
+    "filename": "ST_Loop_140_Am_1789265177174.ogg",
+    "url": "/loops/ST_Loop_140_Am_1789265177174.ogg",
+    "title": "Keys & Synths Loop (140 BPM - Am)",
+    "category": "Keys & Synths",
+    "bpm": 140,
+    "key": "Am",
+    "fileSize": 505829,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:06:17.215Z"
+  },
+  {
     "id": "loop_186",
     "filename": "ST_Loop_120_C_1789265154572.ogg",
     "url": "/loops/ST_Loop_120_C_1789265154572.ogg",
