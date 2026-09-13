@@ -1,5 +1,53 @@
 [
   {
+    "id": "loop_57",
+    "filename": "ST_Loop_92_Gm_1789262545993.ogg",
+    "url": "/loops/ST_Loop_92_Gm_1789262545993.ogg",
+    "title": "Electric Guitar Loop (92 BPM - Gm)",
+    "category": "Electric Guitar",
+    "bpm": 92,
+    "key": "Gm",
+    "fileSize": 374972,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:22:26.019Z"
+  },
+  {
+    "id": "loop_56",
+    "filename": "ST_Loop_94_Ab_1789262542832.ogg",
+    "url": "/loops/ST_Loop_94_Ab_1789262542832.ogg",
+    "title": "Drums & Percussion Loop (94 BPM - Ab)",
+    "category": "Drums & Percussion",
+    "bpm": 94,
+    "key": "Ab",
+    "fileSize": 372611,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:22:22.855Z"
+  },
+  {
+    "id": "loop_55",
+    "filename": "ST_Loop_96_Cm_1789262541054.ogg",
+    "url": "/loops/ST_Loop_96_Cm_1789262541054.ogg",
+    "title": "Drums & Percussion Loop (96 BPM - Cm)",
+    "category": "Drums & Percussion",
+    "bpm": 96,
+    "key": "Cm",
+    "fileSize": 186180,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:22:21.085Z"
+  },
+  {
+    "id": "loop_54",
+    "filename": "ST_Loop_70_G_1789262540490.ogg",
+    "url": "/loops/ST_Loop_70_G_1789262540490.ogg",
+    "title": "Drums & Percussion Loop (70 BPM - G)",
+    "category": "Drums & Percussion",
+    "bpm": 70,
+    "key": "G",
+    "fileSize": 1167121,
+    "format": "OGG",
+    "createdAt": "2026-09-13T01:22:20.513Z"
+  },
+  {
     "id": "loop_53",
     "filename": "ST_Loop_119_Bbm_1789262533736.ogg",
     "url": "/loops/ST_Loop_119_Bbm_1789262533736.ogg",
