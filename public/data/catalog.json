@@ -1,5 +1,29 @@
 [
   {
+    "id": "loop_273",
+    "filename": "ST_Loop_170_Am_1789265560649.ogg",
+    "url": "/loops/ST_Loop_170_Am_1789265560649.ogg",
+    "title": "Acoustic Guitar Loop (170 BPM - Am)",
+    "category": "Acoustic Guitar",
+    "bpm": 170,
+    "key": "Am",
+    "fileSize": 283122,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:12:40.676Z"
+  },
+  {
+    "id": "loop_272",
+    "filename": "ST_Loop_170_Am_1789265558178.ogg",
+    "url": "/loops/ST_Loop_170_Am_1789265558178.ogg",
+    "title": "Keys & Synths Loop (170 BPM - Am)",
+    "category": "Keys & Synths",
+    "bpm": 170,
+    "key": "Am",
+    "fileSize": 196695,
+    "format": "OGG",
+    "createdAt": "2026-09-13T02:12:38.217Z"
+  },
+  {
     "id": "loop_271",
     "filename": "ST_Loop_85_C_1789265550986.ogg",
     "url": "/loops/ST_Loop_85_C_1789265550986.ogg",
